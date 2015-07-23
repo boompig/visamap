@@ -116,9 +116,98 @@ def parse_to_json (pickle_fname, json_fname=None):
     with open(json_fname, "w") as fp:
         json.dump(data, fp)
 
+def get_coverage(denom):
+    try:
+        visa_info = get_visa_data(denom)
+    except urllib2.HTTPError as e:
+        print denom
+        print e
+        return None
+    except AssertionError as e:
+        print denom
+        print e
+        return None
+    except UnicodeEncodeError as e:
+        print denom
+        print e
+        return None
+    except TypeError as e:
+        print denom
+        print e
+        return None
+    except AttributeError as e:
+        print denom
+        print e
+        return None
+    coverage = set([])
+    for other_country, status in visa_info.iteritems():
+        if "Visa free" in status or "Visa not required" in status:
+            coverage.add(other_country)
+    return coverage
+
+def count_coverage (denom1, denom2):
+    cover1 = get_coverage(denom1)
+    cover2 = get_coverage(denom2)
+    joint = cover1.union(cover2)
+    return len(joint), joint
+
+def get_list_of_countries():
+    d = read_demonyms()
+    # pick a country, and then pick another country
+    countries = list( d.keys() )
+    countries.sort()
+    num_countries = len(countries)
+    best = (None, None)
+    best_count = 0
+    blacklist = set([])
+    best_cover = None
+    blacklist_fname = "cache/blacklist.data"
+    #if os.path.exists(blacklist_fname):
+        #with open(blacklist_fname) as fp:
+            #blacklist = pickle.load(fp)
+
+    #print countries
+    for c1 in countries:
+        if c1 in blacklist:
+            continue
+        cover1 = get_coverage(d[c1])
+        if cover1 is None:
+            blacklist.add(c1)
+            continue
+        for c2 in countries:
+            if c2 <= c1 or c2 in blacklist:
+                continue
+            cover2 = get_coverage(d[c2])
+            if cover2 is None:
+                blacklist.add(c2)
+                continue
+            for c3 in countries:
+                if c3 <= c2 or c3 in blacklist:
+                    continue
+                cover3 = get_coverage(d[c3])
+                if cover3 is None:
+                    blacklist.add(c3)
+                    continue
+
+                cover = cover1.union(cover2).union(cover3)
+                count = len(cover)
+
+                #print "%s\t\t\t%s\t\t\t%s" % (c1, c2, count)
+                if count > best_count:
+                    best_count = count
+                    best = [c1, c2, c3]
+                    best_cover = cover
+
+    print best_count
+    print best[0], best[1], best[2]
+    print best_cover
+    with open(blacklist_fname, "w") as fp:
+        pickle.dump(blacklist, fp)
+
 if __name__ == "__main__":
-    fname = "data/United_States.data"
-    parse_to_json(fname, fname.replace("data", "json"))
+    get_list_of_countries()
+    #fname = "data/United_States.data"
+    #parse_to_json(fname, fname.replace("data", "json"))
     ##download_visa_info("Russian")
     #d = read_demonyms()
     #data = {}
