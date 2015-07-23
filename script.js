@@ -57,7 +57,8 @@ app.controller("VisaCtrl", function ($scope, $http) {
                 smallList = [country, 0];
             } else if (data[country].indexOf("eVisa") >= 0 || data[country].indexOf("eVisitor") >= 0 || 
                     data[country].indexOf("e-Tourist Visa") >= 0 || data[country].indexOf("E-visa") >= 0 ||
-                    data[country].indexOf("Online Visitor") >= 0) {
+                    data[country].indexOf("Online Visitor") >= 0 || data[country].indexOf("Electronic Travel Authority") >= 0 ||
+                    data[country].indexOf("Online reciprocity fee") >= 0) {
                 smallList = [country, 0.5];
             } else if (data[country].indexOf("Visa on arrival") >= 0) {
                 smallList = [country, 0.75];
