@@ -88,7 +88,7 @@ app.controller("VisaCtrl", function ($scope, $http) {
 
             $scope.drawOnChart ();
         } else {
-            var d = $scope.countries[country].replace(" ", "_");
+            var d = $scope.countries[country].replace(/ /g, "_");
             $http.get("json/" + d + ".json").success(function (response) {
                 console.log(response);
                 $scope.visaStatus[country] = response;
