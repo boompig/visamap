@@ -1,0 +1,39 @@
+html, body {
+    width: 100%;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    width: 49%;
+}
+
+.flow-list {
+    height: 600px;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.flow-list-item {
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 1px;
+
+    max-width: 300px;
+}
+
+.flow-list-item:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+.flow-list-item.selected {
+    font-weight: bold;
+}

@@ -1,0 +1,782 @@
+(dp0
+VCanada
+p1
+VVisa required
+p2
+sVTurkmenistan
+p3
+VVisa required
+p4
+sVLithuania
+p5
+VVisa required
+p6
+sVSaint Kitts and Nevis
+p7
+VVisa required
+p8
+sVEthiopia
+p9
+VVisa required
+p10
+sVSwaziland
+p11
+VVisa required
+p12
+sVArgentina
+p13
+VVisa required
+p14
+sVBolivia
+p15
+VVisa required
+p16
+sVCameroon
+p17
+VVisa required
+p18
+sVBurkina Faso
+p19
+VVisa required
+p20
+sVGhana
+p21
+VVisa required
+p22
+sVSaudi Arabia
+p23
+VVisa required
+p24
+sVCape Verde
+p25
+VVisa on arrival
+p26
+sVSlovenia
+p27
+VVisa required
+p28
+sVGuatemala
+p29
+VVisa required
+p30
+sVBosnia and Herzegovina
+p31
+VVisa required
+p32
+sVKuwait
+p33
+VVisa on arrival
+p34
+sVGermany
+p35
+VVisa required
+p36
+sVDominica
+p37
+VVisa not required
+p38
+sVLiberia
+p39
+VVisa required
+p40
+sVMaldives
+p41
+VVisa on arrival
+p42
+sVPakistan
+p43
+VVisa required
+p44
+sVOman
+p45
+VVisa required
+p46
+sVTanzania
+p47
+VVisa on arrival
+p48
+sVSeychelles
+p49
+VVisa on arrival !Visitor's Permit on arrival
+p50
+sVGabon
+p51
+VVisa required
+p52
+sVMonaco
+p53
+VVisa required
+p54
+sVNew Zealand
+p55
+VVisa required
+p56
+sVYemen
+p57
+VVisa required
+p58
+sVJamaica
+p59
+VVisa required
+p60
+sVAlbania
+p61
+VVisa required
+p62
+sVSamoa
+p63
+VVisa on arrival !Entry Permit on arrival
+p64
+sVMacau
+p65
+VVisa required
+p66
+sVUnited Arab Emirates
+p67
+VVisa required
+p68
+sVIndia
+p69
+Ve-Tourist Visa
+p70
+sVAzerbaijan
+p71
+VVisa required
+p72
+sVLesotho
+p73
+VVisa required
+p74
+sVSaint Vincent and the Grenadines
+p75
+VVisa not required
+p76
+sVKenya
+p77
+VeVisa
+p78
+sVSouth Korea
+p79
+VVisa required
+p80
+sVTajikistan
+p81
+VVisa required
+p82
+sVTurkey
+p83
+VVisa required
+p84
+sVAfghanistan
+p85
+VVisa required
+p86
+sVBangladesh
+p87
+VVisa on arrival
+p88
+sVMauritania
+p89
+VVisa on arrival
+p90
+sVSolomon Islands
+p91
+VVisa required
+p92
+sVSaint Lucia
+p93
+VVisa on arrival
+p94
+sVSan Marino
+p95
+VVisa required
+p96
+sVMongolia
+p97
+VVisa required
+p98
+sVFrance
+p99
+VVisa required
+p100
+sVRwanda
+p101
+VVisa required
+p102
+sVSomalia
+p103
+VVisa on arrival
+p104
+sVPeru
+p105
+VVisa required
+p106
+sVLaos
+p107
+VVisa not required
+p108
+sVNauru
+p109
+VVisa required
+p110
+sVNorway
+p111
+VVisa required
+p112
+sVMalawi
+p113
+VVisa required
+p114
+sVBenin
+p115
+VVisa required
+p116
+sVCuba
+p117
+VVisa required
+p118
+sVMontenegro
+p119
+VVisa required
+p120
+sVRepublic of the Congo
+p121
+VVisa required
+p122
+sVTogo
+p123
+VVisa on arrival
+p124
+sVChina
+p125
+VVisa required
+p126
+sVArmenia
+p127
+VVisa on arrival
+p128
+sVTimor-Leste
+p129
+VVisa on arrival
+p130
+sVDominican Republic
+p131
+VVisa required
+p132
+sVUkraine
+p133
+VVisa required
+p134
+sVBahrain
+p135
+VVisa required
+p136
+sVTonga
+p137
+VVisa required
+p138
+sVFinland
+p139
+VVisa required
+p140
+sVLibya
+p141
+VVisa required
+p142
+sVIndonesia
+p143
+VVisa not required
+p144
+sVCentral African Republic
+p145
+VVisa required
+p146
+sVMauritius
+p147
+VVisa on arrival
+p148
+sVLiechtenstein
+p149
+VVisa required
+p150
+sVBelarus
+p151
+VVisa required
+p152
+sVMacedonia
+p153
+VVisa required
+p154
+sVMali
+p155
+VVisa required
+p156
+sVVatican City
+p157
+VVisa required
+p158
+sVRussia
+p159
+VVisa required
+p160
+sVBulgaria
+p161
+VVisa required
+p162
+sVUnited States
+p163
+VVisa required
+p164
+sVRomania
+p165
+VVisa required
+p166
+sVAngola
+p167
+VVisa required
+p168
+sVChad
+p169
+VVisa required
+p170
+sVSouth Africa
+p171
+VVisa required
+p172
+sVCyprus
+p173
+VVisa required
+p174
+sVSweden
+p175
+VVisa required
+p176
+sVQatar
+p177
+VVisa required
+p178
+sVMalaysia
+p179
+VVisa not required
+p180
+sVAustria
+p181
+VVisa required
+p182
+sVVietnam
+p183
+VVisa not required
+p184
+sVMozambique
+p185
+VVisa on arrival
+p186
+sVUganda
+p187
+VVisa on arrival
+p188
+sVHungary
+p189
+VVisa required
+p190
+sVNiger
+p191
+VVisa required
+p192
+sVBrazil
+p193
+VVisa required
+p194
+sVGuinea
+p195
+VVisa required
+p196
+sVPanama
+p197
+VVisa not required
+p198
+sVGuyana
+p199
+VVisa required
+p200
+sVCosta Rica
+p201
+VVisa required
+p202
+sVLuxembourg
+p203
+VVisa required
+p204
+sVBahamas
+p205
+VVisa required
+p206
+sVIreland
+p207
+VVisa required
+p208
+sVPalau
+p209
+VVisa on arrival
+p210
+sVNigeria
+p211
+VVisa required
+p212
+sVEcuador
+p213
+VVisa not required
+p214
+sVCzech Republic
+p215
+VVisa required
+p216
+sVBrunei
+p217
+VVisa not required
+p218
+sVAustralia
+p219
+VVisa required
+p220
+sVIran
+p221
+VVisa on arrival
+p222
+sVAlgeria
+p223
+VVisa required
+p224
+sVEl Salvador
+p225
+VVisa required
+p226
+sVTuvalu
+p227
+VVisa on arrival
+p228
+sVMarshall Islands
+p229
+VVisa on arrival
+p230
+sVChile
+p231
+VVisa required
+p232
+sVBelgium
+p233
+VVisa required
+p234
+sVKiribati
+p235
+VVisa required
+p236
+sVHaiti
+p237
+VVisa not required
+p238
+sVIraq
+p239
+VVisa required
+p240
+sVHong Kong
+p241
+VVisa required
+p242
+sVSierra Leone
+p243
+VVisa required
+p244
+sVGeorgia
+p245
+VVisa required
+p246
+sVGambia
+p247
+VVisa not required
+p248
+sVPhilippines
+p249
+VVisa not required
+p250
+sVMoldova
+p251
+VVisa required
+p252
+sVMorocco
+p253
+VVisa required
+p254
+sVCroatia
+p255
+VVisa required
+p256
+sVMicronesia
+p257
+VVisa not required
+p258
+sVGuinea-Bissau
+p259
+VVisa on arrival
+p260
+sVThailand
+p261
+VVisa not required
+p262
+sVSwitzerland
+p263
+VVisa required
+p264
+sVGrenada
+p265
+VVisa required
+p266
+sVBelize
+p267
+VVisa required
+p268
+sVPortugal
+p269
+VVisa required
+p270
+sVEstonia
+p271
+VVisa required
+p272
+sVUruguay
+p273
+VVisa required
+p274
+sVMexico
+p275
+VVisa required
+p276
+sVLebanon
+p277
+VVisa required
+p278
+sVUzbekistan
+p279
+VVisa required
+p280
+sVTunisia
+p281
+VVisa required
+p282
+sVDjibouti
+p283
+VVisa on arrival
+p284
+sVAntigua and Barbuda
+p285
+VVisa required
+p286
+sVSpain
+p287
+VVisa required
+p288
+sVColombia
+p289
+VVisa required
+p290
+sVBurundi
+p291
+VVisa required
+p292
+sVTaiwan
+p293
+VVisa required
+p294
+sVFiji
+p295
+VVisa required
+p296
+sVBarbados
+p297
+VVisa required
+p298
+sVMadagascar
+p299
+VVisa on arrival
+p300
+sVItaly
+p301
+VVisa required
+p302
+sVBhutan
+p303
+VVisa required
+p304
+sVSudan
+p305
+VVisa required
+p306
+sVNepal
+p307
+VVisa on arrival
+p308
+sVMalta
+p309
+VVisa required
+p310
+sVDemocratic Republic of the Congo
+p311
+VVisa required
+p312
+sVNetherlands
+p313
+VVisa required
+p314
+sVSuriname
+p315
+VVisa required
+p316
+sVSão Tomé and Príncipe
+p317
+VVisa required
+p318
+sVVenezuela
+p319
+VVisa required
+p320
+sVIsrael
+p321
+VVisa required
+p322
+sVIceland
+p323
+VVisa required
+p324
+sVZambia
+p325
+VVisa on arrival
+p326
+sVSenegal
+p327
+VVisa required
+p328
+sVPapua New Guinea
+p329
+VVisa required
+p330
+sVTrinidad and Tobago
+p331
+VVisa required
+p332
+sVZimbabwe
+p333
+VVisa required
+p334
+sVJordan
+p335
+VVisa required
+p336
+sVVanuatu
+p337
+VVisa required
+p338
+sVDenmark
+p339
+VVisa required
+p340
+sVKazakhstan
+p341
+VVisa required
+p342
+sVPoland
+p343
+VVisa required
+p344
+sVEritrea
+p345
+VVisa required
+p346
+sVKyrgyzstan
+p347
+VVisa required
+p348
+sVAndorra
+p349
+VVisa required
+p350
+sVNorth Korea
+p351
+VVisa required
+p352
+sVSri Lanka
+p353
+VElectronic Travel Authorization
+p354
+sVLatvia
+p355
+VVisa required
+p356
+sVSouth Sudan
+p357
+VVisa required
+p358
+sVJapan
+p359
+VVisa required
+p360
+sVSyria
+p361
+VVisa required
+p362
+sVCôte d'Ivoire
+p363
+VVisa required
+p364
+sVHonduras
+p365
+VVisa required
+p366
+sVMyanmar
+p367
+VVisa not required
+p368
+sVEquatorial Guinea
+p369
+VVisa required
+p370
+sVEgypt
+p371
+VVisa required
+p372
+sVNicaragua
+p373
+VVisa on arrival
+p374
+sVSingapore
+p375
+VVisa not required
+p376
+sVSerbia
+p377
+VVisa required
+p378
+sVBotswana
+p379
+VVisa required
+p380
+sVUnited Kingdom
+p381
+VVisa required
+p382
+sVGreece
+p383
+VVisa required
+p384
+sVParaguay
+p385
+VVisa required
+p386
+sVNamibia
+p387
+VVisa required
+p388
+sVComoros
+p389
+VVisa on arrival
+p390
+s.

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="VisaApp">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Travel Map</title>
+    </head>
+    <body ng-controller="VisaCtrl">
+        <div class="column-container">
+            <div class="column">
+                <div class="flow-list">
+                    <div class="flow-list-item" ng-repeat="(country, demonym) in countries" ng-click="selectCountry(country)"
+                        ng-class="{ selected: country === selectedCountry }">
+                        {{ country }}
+                    </div>
+                </div>
+            </div>
+
+            <!--<div id="data-container" class="column">-->
+                <!--<h2>Data Container</h2>-->
+                <!--<div ng-repeat="(target_country, status) in getStatus(selectedCountry)">-->
+                    <!--<div>{{ target_country }} -> {{ status }}</div>-->
+                <!--</div>-->
+            <!--</div>-->
+            <div class="column">
+                <div id="map-container"></div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script src="script.js"></script>
+        <script type="text/javascript">
+            google.load("visualization", "1", {packages: ["geochart"]});
+        </script>
+    </body>
+</html>
