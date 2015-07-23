@@ -1,12 +1,14 @@
 html, body {
-    width: 100%;
+    /*width: 100%;*/
     font-size: 1em;
     font-family: sans-serif;
 }
 
 .column-container {
+    display: -webkit-flex;
     display: flex;
     flex-direction: row;
+    -webkit-flex-direction: row;
 }
 
 #map-container {
@@ -15,8 +17,11 @@ html, body {
 
 #map-legend {
     display: flex;
+    display: -webkit-flex;
     flex-direction: row;
+    -webkit-flex-direction: row;
     justify-content: space-around;
+    -webkit-justify-content: space-around;
 }
 
 .legend-item-color {
@@ -27,19 +32,41 @@ html, body {
 }
 
 #left-column {
-    width: 26%;
+    /*width: 26%;*/
+    min-width: 250px;
+    margin: 0;
+    padding: 0;
 }
 
 #right-column {
     width: 63%;
+    margin: 0;
+    padding: 0;
 }
 
 .title {
     text-align: center;
 }
 
+@media(max-height: 600px) {
+    .flow-list {
+        height: 570px;
+    }
+}
+
+@media(max-height: 800px) {
+    .flow-list {
+        height: 770px;
+    }
+}
+
+@media (min-height: 801px) {
+    .flow-list {
+        height: 790px;
+    }
+}
+
 .flow-list {
-    height: 700px;
     overflow: auto;
     margin: 0;
     padding: 0;
@@ -51,7 +78,7 @@ html, body {
     border-radius: 5px;
     margin-bottom: 1px;
 
-    max-width: 300px;
+    width: 200px;
 }
 
 .flow-list-item:hover {
