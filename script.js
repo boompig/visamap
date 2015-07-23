@@ -5,7 +5,8 @@ var colors = {
     ACCEPT: "#32A811",
     REJECT: "#CC4125",
     ON_ARRIVAL: "#E8E22A",
-    OWN_COUNTRY: "#343AED"
+    OWN_COUNTRY: "#343AED",
+    E_VISA: "#EF9CFB"
 };
 
 app.controller("VisaCtrl", function ($scope, $http) {
@@ -35,6 +36,8 @@ app.controller("VisaCtrl", function ($scope, $http) {
                 smallList = [country, 1];
             } else if (data[country].indexOf("Visa required") >= 0) {
                 smallList = [country, 0];
+            } else if (data[country].indexOf("eVisa") >= 0) {
+                smallList = [country, 0.5];
             } else if (data[country].indexOf("Visa on arrival") >= 0) {
                 smallList = [country, 0.75];
             } else {
@@ -51,7 +54,7 @@ app.controller("VisaCtrl", function ($scope, $http) {
         // now that we have chart data
         var options = {
             colorAxis: {
-                colors: [colors.REJECT, colors.OWN_COUNTRY, "#000000", colors.ON_ARRIVAL, colors.ACCEPT]
+                colors: [colors.REJECT, colors.OWN_COUNTRY, colors.E_VISA, colors.ON_ARRIVAL, colors.ACCEPT]
             }
         };
         var chart = new google.visualization.GeoChart(document.getElementById("map-container"));
