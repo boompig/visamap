@@ -9,19 +9,31 @@ html, body {
     flex-direction: row;
 }
 
-.column {
-    width: 49%;
+/*.column {*/
+    /*width: 49%;*/
+/*}*/
+
+#left-column {
+    width: 26%;
+}
+
+#right-column {
+    width: 63%;
+}
+
+.title {
+    text-align: center;
 }
 
 .flow-list {
-    height: 600px;
+    height: 700px;
     overflow: auto;
     margin: 0;
     padding: 0;
 }
 
 .flow-list-item {
-    padding: 1em;
+    padding: 0.5em 1em;
     border: 1px solid black;
     border-radius: 5px;
     margin-bottom: 1px;

@@ -7,7 +7,7 @@
     </head>
     <body ng-controller="VisaCtrl">
         <div class="column-container">
-            <div class="column">
+            <div id="left-column" class="column">
                 <div class="flow-list">
                     <div class="flow-list-item" ng-repeat="(country, demonym) in countries" ng-click="selectCountry(country)"
                         ng-class="{ selected: country === selectedCountry }">
@@ -16,13 +16,8 @@
                 </div>
             </div>
 
-            <!--<div id="data-container" class="column">-->
-                <!--<h2>Data Container</h2>-->
-                <!--<div ng-repeat="(target_country, status) in getStatus(selectedCountry)">-->
-                    <!--<div>{{ target_country }} -> {{ status }}</div>-->
-                <!--</div>-->
-            <!--</div>-->
-            <div class="column">
+            <div id="right-column" class="column">
+                <h2 class="title" ng-if="selectedCountry === null">Select a country to begin</h2>
                 <div id="map-container"></div>
             </div>
         </div>

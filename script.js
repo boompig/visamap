@@ -1,4 +1,12 @@
+"use strict";
 var app = angular.module("VisaApp", []);
+
+var colors = {
+    ACCEPT: "#32A811",
+    REJECT: "#CC4125",
+    ON_ARRIVAL: "#E8E22A",
+    OWN_COUNTRY: "#343AED"
+};
 
 app.controller("VisaCtrl", function ($scope, $http) {
     $scope.selectedCountry = null;
@@ -20,14 +28,15 @@ app.controller("VisaCtrl", function ($scope, $http) {
 
         // add title
         listData.push(["Country", "Visa Requirement"]);
+        listData.push([$scope.selectedCountry, 0.25]);
 
         for (var country in data) {
-            if (data[country].indexOf("Visa not required") >= 0) {
+            if (data[country].indexOf("Visa not required") >= 0 || data[country].indexOf("Visa free") >= 0) {
                 smallList = [country, 1];
             } else if (data[country].indexOf("Visa required") >= 0) {
                 smallList = [country, 0];
             } else if (data[country].indexOf("Visa on arrival") >= 0) {
-                smallList = [country, 0.5];
+                smallList = [country, 0.75];
             } else {
                 smallList = null;
             }
@@ -42,7 +51,7 @@ app.controller("VisaCtrl", function ($scope, $http) {
         // now that we have chart data
         var options = {
             colorAxis: {
-                colors: ["#ff0000", "#00ffff", "#00ff00"]
+                colors: [colors.REJECT, colors.OWN_COUNTRY, "#000000", colors.ON_ARRIVAL, colors.ACCEPT]
             }
         };
         var chart = new google.visualization.GeoChart(document.getElementById("map-container"));
@@ -52,6 +61,8 @@ app.controller("VisaCtrl", function ($scope, $http) {
     $scope.selectCountry = function (country) {
         if ($scope.visaStatus.hasOwnProperty(country)) {
             $scope.selectedCountry = country;
+
+            $scope.drawOnChart ();
         } else {
             var d = $scope.countries[country].replace(" ", "_");
             $http.get("json/" + d + ".json").success(function (response) {
