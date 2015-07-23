@@ -50,7 +50,8 @@ app.controller("VisaCtrl", function ($scope, $http) {
         listData.push([$scope.selectedCountry, 0.25]);
 
         for (var country in data) {
-            if (data[country].indexOf("Visa not required") >= 0 || data[country].indexOf("Visa free") >= 0) {
+            if (data[country].indexOf("Visa not required") >= 0 || data[country].indexOf("Visa free") >= 0 ||
+                data[country].indexOf("Freedom of movement") >= 0) {
                 smallList = [country, 1];
             } else if (data[country].indexOf("Visa required") >= 0) {
                 smallList = [country, 0];
