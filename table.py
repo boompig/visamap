@@ -185,63 +185,20 @@ def count_coverage (denom1, denom2):
     return len(joint), joint
 
 def get_list_of_countries():
-    d = read_demonyms()
-    # pick a country, and then pick another country
-    countries = list( d.keys() )
-    countries.sort()
-    num_countries = len(countries)
-    best = (None, None)
-    best_count = 0
-    blacklist = set([])
-    best_cover = None
-    blacklist_fname = "cache/blacklist.data"
-    #if os.path.exists(blacklist_fname):
-        #with open(blacklist_fname) as fp:
-            #blacklist = pickle.load(fp)
-
-    #print countries
-    for c1 in countries:
-        if c1 in blacklist:
-            continue
-        cover1 = get_coverage(d[c1])
-        if cover1 is None:
-            blacklist.add(c1)
-            continue
-        for c2 in countries:
-            if c2 <= c1 or c2 in blacklist:
-                continue
-            cover2 = get_coverage(d[c2])
-            if cover2 is None:
-                blacklist.add(c2)
-                continue
-            for c3 in countries:
-                if c3 <= c2 or c3 in blacklist:
-                    continue
-                cover3 = get_coverage(d[c3])
-                if cover3 is None:
-                    blacklist.add(c3)
-                    continue
-
-                cover = cover1.union(cover2).union(cover3)
-                count = len(cover)
-
-                #print "%s\t\t\t%s\t\t\t%s" % (c1, c2, count)
-                if count > best_count:
-                    best_count = count
-                    best = [c1, c2, c3]
-                    best_cover = cover
-
-    print best_count
-    print best[0], best[1], best[2]
-    print best_cover
-    with open(blacklist_fname, "w") as fp:
-        pickle.dump(blacklist, fp)
+    countries = read_countries()
+    for country, demonym in countries:
+        get_visa_data_from_json(demonym)
 
 def save_countries (countries):
     with open("json/countries.json", "w") as fp:
         # human-readable
         json.dump(countries, fp, indent=4)
-    pass
+
+def reformat_json (fname):
+    with open(fname) as fp:
+        data = json.load(fp)
+    with open(fname, "w") as fp:
+        json.dump(data, fp, indent=4)
 
 if __name__ == "__main__":
     #d = read_demonyms(cache=False)
@@ -256,5 +213,7 @@ if __name__ == "__main__":
                 #countries[k] = item
     #print countries
     #save_countries(countries)
-    fname = "data/South_Korean.data"
-    pickle_to_json(fname, fname.replace("data", "json"))
+    #fname = "data/South_Korean.data"
+    #pickle_to_json(fname, fname.replace("data", "json"))
+    for fname in os.listdir("json"):
+        reformat_json("json/" + fname)
