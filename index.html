@@ -17,8 +17,15 @@
             </div>
 
             <div id="right-column" class="column">
+                <h2 class="title" ng-if="selectedCountry">Visa Requirements for Citizens of {{ selectedCountry }}</h2>
                 <h2 class="title" ng-if="selectedCountry === null">Select a country to begin</h2>
+                <p class="title" ng-if="selectedCountry === null">
+                    When you click on a country, you see all countries you can travel to if you hold a passport from the given country.
+                </p>
                 <div id="map-container"></div>
+                <p class="title" ng-if="parseProblems(selectedCountry)">
+                    There may have been some problems extracting information for this country, so results may not be accurate.
+                </p>
             </div>
         </div>
 

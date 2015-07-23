@@ -81,5 +81,13 @@ app.controller("VisaCtrl", function ($scope, $http) {
         });
     };
 
+    $scope.parseProblems = function (country) {
+        if (country === null) {
+            return false;
+        }
+        var keys = Object.keys($scope.visaStatus[country]);
+        return keys.length < 2;
+    };
+
     $scope.getCountries();
 });
