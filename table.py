@@ -117,18 +117,20 @@ def parse_to_json (pickle_fname, json_fname=None):
         json.dump(data, fp)
 
 if __name__ == "__main__":
-    #download_visa_info("Russian")
-    d = read_demonyms()
-    data = {}
-    print d
-    for country, demonym in d.iteritems():
-        fname = "data/%s.data" % demonym.replace(" ", "_")
-        if os.path.exists(fname):
-            data[country] = demonym
-            parse_to_json(fname, fname.replace("data", "json"))
-        else:
-            #print demonym
-            pass
-    print json.dumps(data, indent=4)
-    with open("json/countries.json", "w") as fp:
-        json.dump(data, fp)
+    fname = "data/United_States.data"
+    parse_to_json(fname, fname.replace("data", "json"))
+    ##download_visa_info("Russian")
+    #d = read_demonyms()
+    #data = {}
+    #print d
+    #for country, demonym in d.iteritems():
+        #fname = "data/%s.data" % demonym.replace(" ", "_")
+        #if os.path.exists(fname):
+            #data[country] = demonym
+            #parse_to_json(fname, fname.replace("data", "json"))
+        #else:
+            ##print demonym
+            #pass
+    #print json.dumps(data, indent=4)
+    #with open("json/countries.json", "w") as fp:
+        #json.dump(data, fp)
