@@ -18,6 +18,12 @@
 
             <div id="right-column" class="column">
                 <h2 class="title" ng-if="selectedCountry">Visa Requirements for Citizens of {{ selectedCountry }}</h2>
+                <div id="map-legend" ng-if="selectedCountry">
+                    <div class="legend-item" ng-repeat="item in legend">
+                        <span class="legend-item-color" ng-style="{ 'background-color': item.color }"></span>
+                        <span class="legend-item-label">{{ item.label }}</span>
+                    </div>
+                </div>
                 <h2 class="title" ng-if="selectedCountry === null">Select a country to begin</h2>
                 <p class="title" ng-if="selectedCountry === null">
                     When you click on a country, you see all countries you can travel to if you hold a passport from the given country.

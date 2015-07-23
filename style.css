@@ -13,6 +13,19 @@ html, body {
     height: 650px;
 }
 
+#map-legend {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.legend-item-color {
+    height: 1em;
+    width: 1em;
+    display: inline-block;
+    border: 1px solid black;
+}
+
 #left-column {
     width: 26%;
 }
