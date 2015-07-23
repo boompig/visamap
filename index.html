@@ -19,7 +19,7 @@
             <div id="right-column" class="column">
                 <h2 class="title" ng-if="selectedCountry">Visa Requirements for Citizens of {{ selectedCountry }}</h2>
                 <div id="map-legend" ng-if="selectedCountry">
-                    <div class="legend-item" ng-repeat="item in legend">
+                    <div class="legend-item" ng-repeat="item in getLegend()">
                         <span class="legend-item-color" ng-style="{ 'background-color': item.color }"></span>
                         <span class="legend-item-label">{{ item.label }}</span>
                     </div>
