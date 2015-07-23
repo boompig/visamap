@@ -5,49 +5,48 @@ VCanadian
 p2
 sVEast Timor
 p3
-VEast Timorese
+VTimorese
 p4
 sVGuinea-Bissau
 p5
 VBissau-Guinean
 p6
-sVDem. Republic of the Congo
-p7
-VCongolese
-p8
-sVNorthern Marianas
-p9
-VNorthern Marianan
-p10
 sVLithuania
-p11
+p7
 VLithuanian
-p12
+p8
 sVCambodia
-p13
+p9
 VCambodian
-p14
+p10
+sVSaint Helena, Ascension and Tristan da Cunha
+p11
+VSaint Helenian
+p12
 sVSwitzerland
-p15
+p13
 VSwiss
-p16
+p14
 sVEthiopia
-p17
+p15
 VEthiopian
-p18
+p16
 sVAruba
-p19
+p17
 VAruban
-p20
+p18
 sVSwaziland
-p21
+p19
 VSwazi
-p22
+p20
 sVWallis and Futuna
+p21
+(lp22
+VWallis and Futuna
 p23
-VWallisian
+aVWallisianorFutunan
 p24
-sVPalestine
+asVPalestine
 p25
 VPalestinian
 p26
@@ -59,9 +58,9 @@ sVBolivia
 p29
 VBolivian
 p30
-sVCameroon
+sVBahamas, The
 p31
-VCameroonian
+VBahamian
 p32
 sVBurkina Faso
 p33
@@ -71,896 +70,1115 @@ sVTurkmenistan
 p35
 VTurkmen
 p36
-sVGhana
+sVBahrain
 p37
-VGhanaian
+VBahraini
 p38
 sVSaudi Arabia
 p39
+(lp40
 VSaudi
-p40
-sVRwanda
 p41
-VRwandan
+aVSaudi Arabian
 p42
-sVJapan
+asVRwanda
 p43
-VJapanese
+VRwandan
 p44
-sVCape Verde
-p45
-VCape Verdean
-p46
-sVCocos (Keeling) Islands
-p47
-VCocos Island
-p48
-sVSlovenia
-p49
-VSlovenian
-p50
-sVGuatemala
-p51
-VGuatemalan
-p52
-sVBosnia and Herzegovina
-p53
-VBosnian
-p54
-sVKuwait
-p55
-VKuwaiti
-p56
-sVJordan
-p57
-VJordanian
-p58
-sVSt. Lucia
-p59
-VSt. Lucian
-p60
-sVDominica
-p61
-VDominicand
-p62
-sVLiberia
-p63
-VLiberian
-p64
-sVMaldives
-p65
-VMaldivian
-p66
-sVMicronesia, Federated States of
-p67
-VMicronesian
-p68
-sVJamaica
-p69
-VJamaican
-p70
-sVOman
-p71
-VOmani
-p72
-sVTanzania
-p73
-VTanzanian
-p74
-sVMartinique
-p75
-VMartiniquais
-p76
-sVCabo Verde
-p77
-VCabo Verdean
-p78
-sVChristmas Island
-p79
-VChristmas Island
-p80
-sVGabon
-p81
-VGabonese
-p82
-sVNiue
-p83
-VNiuean
-p84
-sVMonaco
-p85
-VMonégasque
-p86
-sVSamoa
-p87
-VSamoan
-p88
-sVNew Zealand
-p89
-VNew Zealand
-p90
-sVYemen
-p91
-VYemeni
-p92
-sVJersey
-p93
-VChannel Island
-p94
-sVAndorra
-p95
-VAndorran
-p96
-sVSouth Ossetia
-p97
-VSouth Ossetian
-p98
-sVAlbania
-p99
-VAlbanian
-p100
-sVEngland
-p101
-VEnglish
-p102
-sVMacau
-p103
-VMacanese
-p104
-sVNicaragua
-p105
-VNicaraguan
-p106
-sVUnited Arab Emirates
-p107
-VEmirati
-p108
-sVGuam
-p109
-VGuamanian
-p110
-sVUruguay
-p111
-VUruguayan
-p112
-sVIndia
-p113
-VIndian
-p114
-sVAzerbaijan
-p115
-VAzerbaijani
-p116
-sVLesotho
-p117
-VBasotho
-p118
-sVKenya
-p119
-VKenyan
-p120
-sVTajikistan
-p121
-VTajikistani
-p122
-sVTurkey
-p123
-VTurkish
-p124
-sVAfghanistan
-p125
-VAfghan
-p126
-sVBangladesh
-p127
-VBangladeshi
-p128
-sVMauritania
-p129
-VMauritanian
-p130
-sVSolomon Islands
-p131
-VSolomon Island
-p132
-sVTurks and Caicos Islands
-p133
-Vnone
-p134
-sVSan Marino
-p135
-VSammarinese
-p136
-sVFrench Polynesia
-p137
-VFrench Polynesian
-p138
-sVFrance
-p139
-VFrench
-p140
-sVBermuda
-p141
-VBermudian
-p142
-sVSlovakia
-p143
-VSlovak
-p144
-sVSomalia
-p145
-VSomali;Somalian
-p146
-sVPeru
-p147
-VPeruvian
-p148
-sVLaos
-p149
-VLao
-p150
-sVNauru
-p151
-VNauruan
-p152
-sVSeychelles
-p153
-VSeychellois
-p154
-sVNorway
-p155
-VNorwegian
-p156
-sVMalawi
-p157
-VMalawian
-p158
-sVCook Islands
-p159
-VCook Island
-p160
-sVAbkhazia
-p161
-VAbkhaz
-p162
-sVWestern Sahara
-p163
-VSahraw
-p164
-sVCuba
-p165
-VCuban
-p166
-sVMontenegro
-p167
-VMontenegrin
-p168
 sVTogo
-p169
+p45
 VTogolese
-p170
-sVVirgin Islands
-p171
-VVirgin Island
-p172
-sVArmenia
-p173
-VArmenian
-p174
-sVDominican Republic
-p175
-VDominicane
-p176
-sVUkraine
-p177
-VUkrainian
-p178
-sVBahrain
-p179
-VBahraini
-p180
-sVTonga
-p181
-VTongan
-p182
-sVFinland
-p183
-VFinnish
-p184
-sVLibya
-p185
-VLibyan
-p186
-sVSt. Helena
-p187
-VSt. Helenian
-p188
-sVCayman Islands
-p189
-VCaymanian
-p190
-sVCentral African Republic
-p191
-VCentral African
-p192
-sVMauritius
-p193
-VMauritian
-p194
-sVLiechtenstein
-p195
-VLiechtenstein
-p196
-sVAustralia
-p197
-VAustralian
-p198
-sVBritish Virgin Islands
-p199
-VBritish Virgin Island
-p200
-sVMali
-p201
-VMalian
-p202
-sVRussia
-p203
-VRussian
-p204
-sVBulgaria
-p205
-VBulgarian
-p206
-sVUnited States
-p207
-VAmericanj
-p208
-sVRomania
-p209
-VRomanian
-p210
-sVAngola
-p211
-VAngolan
-p212
-sVChad
-p213
-VChadian
-p214
-sVSouth Africa
-p215
-VSouth African
-p216
-sVSt. Vincent and the Grenadines
-p217
-VSt. Vincentian
-p218
-sVCyprus
-p219
-VCypriot
-p220
-sVSweden
-p221
-VSwedish
-p222
-sVQatar
-p223
-VQatari
-p224
-sVMalaysia
-p225
-VMalaysian
-p226
-sVAustria
-p227
-VAustrian
-p228
-sVVietnam
-p229
-VVietnamese
-p230
-sVMozambique
-p231
-VMozambican
-p232
-sVUganda
-p233
-VUgandan
-p234
-sVHungary
-p235
-VHungarian
-p236
-sVNiger
-p237
-VNigerien
-p238
-sVIsle of Man
-p239
-VManx
-p240
-sVWales
-p241
-VWelsh
-p242
-sVBrazil
-p243
-VBrazilian
-p244
-sVSyria
-p245
-VSyrian
-p246
-sVFalkland Islands
-p247
-VFalkland Island
-p248
-sVFaroe Islands
-p249
-VFaroese
-p250
-sVGuinea
-p251
-VGuinean
-p252
-sVPanama
-p253
-VPanamanian
-p254
-sVGuyana
-p255
-VGuyanese
-p256
-sVScotland
-p257
-VScots
-p258
-sVCosta Rica
-p259
-VCosta Rican
-p260
-sVLuxembourg
-p261
-VLuxembourg
-p262
-sVAmerican Samoa
-p263
-VAmerican Samoan
-p264
-sVBahamas
-p265
-VBahamian
-p266
-sVGreat Britain
-p267
-VBritish
-p268
-sVGibraltar
-p269
-VGibraltar
-p270
-sVIreland
-p271
-VIrish
-p272
-sVPakistan
-p273
-VPakistani
-p274
-sVPalau
-p275
-VPalauan
-p276
-sVNigeria
-p277
-VNigerian
-p278
-sVEcuador
-p279
-VEcuadorian
-p280
-sVCzech Republic
-p281
-VCzech
-p282
-sVPitcairn Island
-p283
-VPitcairn Island
-p284
-sVBrunei
-p285
-VBruneian
-p286
-sVBelarus
-p287
-VBelarusian
-p288
-sVIran
-p289
-VIranian
-p290
-sVAlgeria
-p291
-VAlgerian
-p292
-sVEl Salvador
-p293
-VSalvadoranf
-p294
-sVTuvalu
-p295
-VTuvaluan
-p296
-sVSt. Kitts and Nevis
-p297
-VKittitian
-p298
-sVMarshall Islands
-p299
-VMarshallese
-p300
-sVChile
-p301
-VChilean
-p302
-sVPuerto Rico
-p303
-VPuerto Rican
-p304
-sVBelgium
-p305
-VBelgian
-p306
-sVKiribati
-p307
-VI-Kiribati
-p308
-sVHaiti
-p309
-VHaitian
-p310
-sVBelize
-p311
-VBelizean
-p312
-sVHong Kong
-p313
-VHong Kong
-p314
-sVSierra Leone
-p315
-VSierra Leonean
-p316
-sVGeorgia
-p317
-VGeorgian
-p318
-sVGambia
-p319
-VGambian
-p320
-sVPhilippines
-p321
-VPhilippine
-p322
-sVMoldova
-p323
-VMoldovan
-p324
-sVMorocco
-p325
-VMoroccan
-p326
-sVCroatia
-p327
-VCroatian
-p328
-sVMongolia
-p329
-VMongolian
-p330
-sVGuernsey
-p331
-VChannel Island
-p332
-sVThailand
-p333
-VThai
-p334
-sVNamibia
-p335
-VNamibian
-p336
-sVGrenada
-p337
-VGrenadian
-p338
-sVIraq
-p339
-VIraqi
-p340
-sVPortugal
-p341
-VPortuguese
-p342
-sVEstonia
-p343
-VEstonian
-p344
-sVKosovo
-p345
-VKosovar
-p346
-sVMexico
-p347
-VMexican
-p348
-sVLebanon
-p349
-VLebanese
-p350
-sVUzbekistan
-p351
-VUzbekistani
-p352
-sVTunisia
-p353
-VTunisian
-p354
-sVDjibouti
-p355
-VDjiboutian
-p356
-sVGreenland
-p357
-VGreenlandic
-p358
-sVAntigua and Barbuda
-p359
-VAntiguan
-p360
-sVSpain
-p361
-VSpanish
-p362
-sVColombia
-p363
-VColombian
-p364
-sVBurundi
-p365
-VBurundian
-p366
-sVTaiwan
-p367
-VTaiwanese
-p368
-sVFiji
-p369
-VFijian
-p370
-sVBarbados
-p371
-VBarbadian&#160;&#160;("Bajan")
-p372
-sVMadagascar
-p373
-VMalagasy
-p374
-sVItaly
-p375
-VItalian
-p376
-sVBhutan
-p377
-VBhutanese
-p378
-sVSudan
-p379
-VSudanese
-p380
-sVNepal
-p381
-VNepalese
-p382
-sVMalta
-p383
-VMaltese
-p384
-sVNetherlands
-p385
-VDutch
-p386
-sVSão Tomé and Príncipe
-p387
-VSão Toméan
-p388
-sVAnguilla
-p389
-VAnguillan
-p390
-sVVenezuela
-p391
-VVenezuelan
-p392
-sVIsrael
-p393
-VIsraeli
-p394
-sVRéunion
-p395
-VRéunionese
-p396
-sVIndonesia
-p397
-VIndonesian
-p398
-sVIceland
-p399
-VIcelandic
-p400
-sVZambia
-p401
-VZambian
-p402
-sVRepublic of Ireland
-p403
-VIrish/Southern Irishh
-p404
-sVPapua New Guinea
-p405
-VPapua New Guinean
-p406
-sVTrinidad and Tobago
-p407
-VTrinidadian
-p408
-sVZimbabwe
-p409
-VZimbabwean
-p410
-sVGermany
-p411
-VGerman
-p412
-sVVanuatu
-p413
-VNi-Vanuatu
-p414
-sVDenmark
-p415
-VDanish
-p416
-sVSenegal
-p417
-VSenegalese
-p418
-sVBenin
-p419
-VBeninese
-p420
-sVKazakhstan
-p421
-VKazakhstani
-p422
-sVPoland
-p423
-VPolish
-p424
-sVEritrea
-p425
-VEritrean
-p426
-sVKyrgyzstan
-p427
-VKyrgyzstani
-p428
-sVNorthern Ireland
-p429
-VNorthern Irish/British/Irish
-p430
-sVMayotte
-p431
-VMahoran
-p432
+p46
+sVJapan
+p47
+VJapanese
+p48
+sVCape Verde
+p49
+VCape Verdean
+p50
 sVMontserrat
-p433
+p51
 VMontserratian
-p434
-sVNew Caledonia
-p435
-VNew Caledonian
-p436
-sVNorth Korea
-p437
-VNorth Korean
-p438
-sVSri Lanka
-p439
-VSri Lankan
-p440
-sVLatvia
-p441
-VLatvian
-p442
-sVSouth Sudan
-p443
-VSouth Sudanese
-p444
-sVCuraçao
-p445
-VCuraçaoan
-p446
-sVSaint-Pierre and Miquelon
-p447
-VSaint-Pierrais
-p448
-sVGuadeloupe
-p449
-VGuadeloupe
-p450
-sVCôte d'Ivoire
-p451
-VIvorian
-p452
-sVBurma
-p453
-VBurmese
-p454
-sVHonduras
-p455
-VHonduran
-p456
-sVEquatorial Guinea
-p457
-VEquatorial Guinean
-p458
-sVEgypt
-p459
-VEgyptian
-p460
-sVRepublic of Macedonia
-p461
-VMacedonian
-p462
-sVSingapore
-p463
-VSingaporean[2][3]
-p464
-sVSerbia
-p465
-VSerbian
-p466
-sVSurinam
-p467
-VSurinamese
-p468
-sVBotswana
-p469
-VMotswana(pl.Batswana)
-p470
-sVUnited Kingdom
-p471
-VBritish
-p472
-sVPeople's Republic of China
-p473
+p52
+sVCocos (Keeling) Islands
+p53
+VCocos Island
+p54
+sVSlovenia
+p55
+(lp56
+VSlovenian
+p57
+aVSlovene
+p58
+asVGuatemala
+p59
+VGuatemalan
+p60
+sVBosnia and Herzegovina
+p61
+VBosnianorHerzegovinian
+p62
+sVKuwait
+p63
+VKuwaiti
+p64
+sVVatican City State
+p65
+VVatican
+p66
+sVJordan
+p67
+VJordanian
+p68
+sVSint Eustatius
+p69
+V
+p70
+sVDominica
+p71
+VDominican
+p72
+sVLiberia
+p73
+VLiberian
+p74
+sVKorea, Republic of
+p75
+VSouth Korean
+p76
+sVMicronesia, Federated States of
+p77
+VMicronesian
+p78
+sVPakistan
+p79
+VPakistani
+p80
+sVOman
+p81
+VOmani
+p82
+sVTanzania
+p83
+VTanzanian
+p84
+sVCabo Verde
+p85
+VCabo Verdean
+p86
+sVChristmas Island
+p87
+VChristmas Island
+p88
+sVGabon
+p89
+VGabonese
+p90
+sVNiue
+p91
+VNiuean
+p92
+sVMonaco
+p93
+(lp94
+VMonégasque
+p95
+aVMonacan
+p96
+asVSamoa
+p97
+VSamoan
+p98
+sVNew Zealand
+p99
+(lp100
+VNew Zealand
+p101
+aVNZ
+p102
+asVYemen
+p103
+VYemeni
+p104
+sVJersey
+p105
+VChannel Island
+p106
+sVJamaica
+p107
+VJamaican
+p108
+sVSouth Ossetia
+p109
+VSouth Ossetian
+p110
+sVAlbania
+p111
+VAlbanian
+p112
+sVEngland
+p113
+(lp114
+VEnglish
+p115
+aVBritish
+p116
+asVMacau
+p117
+(lp118
+VMacanese
+p119
+aVChinese
+p120
+asVJan Mayen
+p121
+g70
+sVUnited Arab Emirates
+p122
+(lp123
+VEmirati
+p124
+aVEmirian
+p125
+aVEmiri
+p126
+asVGuam
+p127
+(lp128
+VGuamanian
+p129
+aVGuambat
+p130
+asVUruguay
+p131
+VUruguayan
+p132
+sVIndia
+p133
+VIndian
+p134
+sVAzerbaijan
+p135
+(lp136
+VAzerbaijani
+p137
+aVAzeri
+p138
+asVLesotho
+p139
+VBasotho
+p140
+sVSaint Vincent and the Grenadines
+p141
+(lp142
+VSaint Vincentian
+p143
+aVVincentian
+p144
+asVKenya
+p145
+VKenyan
+p146
+sVTajikistan
+p147
+VTajikistani
+p148
+sVChina, People's Republic of
+p149
 VChinese
+p150
+sVTurkey
+p151
+VTurkish
+p152
+sVAfghanistan
+p153
+VAfghan
+p154
+sVBangladesh
+p155
+VBangladeshi
+p156
+sVMauritania
+p157
+VMauritanian
+p158
+sVSolomon Islands
+p159
+VSolomon Island
+p160
+sVTurks and Caicos Islands
+p161
+VTurks and Caicos Island
+p162
+sVSaint Lucia
+p163
+VSaint Lucian
+p164
+sVSan Marino
+p165
+VSammarinese
+p166
+sVFrench Polynesia
+p167
+VFrench Polynesian
+p168
+sVFrance
+p169
+VFrench
+p170
+sVBermuda
+p171
+(lp172
+VBermudian
+p173
+aVBermudan
+p174
+asVSlovakia
+p175
+VSlovak
+p176
+sVSomalia
+p177
+(lp178
+VSomali
+p179
+aVSomalian
+p180
+asVPeru
+p181
+VPeruvian
+p182
+sVLaos
+p183
+(lp184
+VLao
+p185
+aVLaotian
+p186
+asVNauru
+p187
+VNauruan
+p188
+sVSeychelles
+p189
+VSeychellois
+p190
+sVNorway
+p191
+VNorwegian
+p192
+sVMalawi
+p193
+VMalawian
+p194
+sVCook Islands
+p195
+VCook Island
+p196
+sVAbkhazia
+p197
+(lp198
+VAbkhaz
+p199
+aVAbkhazian
+p200
+asVWestern Sahara
+p201
+(lp202
+VSahrawi
+p203
+aVSahrawian
+p204
+aVSahraouian
+p205
+asVCuba
+p206
+VCuban
+p207
+sVCameroon
+p208
+VCameroonian
+p209
+sVMontenegro
+p210
+VMontenegrin
+p211
+sVSaint Kitts and Nevis
+p212
+VKittitianorNevisian
+p213
+sVMayotte
+p214
+VMahoran
+p215
+sVHeard Island and McDonald Islands
+p216
+g70
+sVArmenia
+p217
+VArmenian
+p218
+sVTimor-Leste
+p219
+VTimorese
+p220
+sVDominican Republic
+p221
+VDominican
+p222
+sVUkraine
+p223
+VUkrainian
+p224
+sVGhana
+p225
+VGhanaian
+p226
+sVTonga
+p227
+VTongan
+p228
+sVCayman Islands
+p229
+VCaymanian
+p230
+sVLibya
+p231
+VLibyan
+p232
+sVFinland
+p233
+VFinnish
+p234
+sVCentral African Republic
+p235
+VCentral African
+p236
+sVNew Caledonia
+p237
+VNew Caledonian
+p238
+sVMauritius
+p239
+VMauritian
+p240
+sVLiechtenstein
+p241
+VLiechtenstein
+p242
+sVAustralia
+p243
+VAustralian
+p244
+sVMali
+p245
+(lp246
+VMalian
+p247
+aVMalinese
+p248
+asVRussia
+p249
+VRussian
+p250
+sVBulgaria
+p251
+VBulgarian
+p252
+sVUnited States
+p253
+(lp254
+VUnited States
+p255
+aVUS
+p256
+aVAmerican
+p257
+asVRomania
+p258
+VRomanian
+p259
+sVAngola
+p260
+VAngolan
+p261
+sVFrench Southern Territories
+p262
+g70
+sVChad
+p263
+VChadian
+p264
+sVSouth Africa
+p265
+VSouth African
+p266
+sVTokelau
+p267
+g70
+sVCyprus
+p268
+VCypriot
+p269
+sVSouth Georgia and the South Sandwich Islands
+p270
+g70
+sVSweden
+p271
+VSwedish
+p272
+sVQatar
+p273
+VQatari
+p274
+sVMalaysia
+p275
+VMalaysian
+p276
+sVAustria
+p277
+VAustrian
+p278
+sVVietnam
+p279
+VVietnamese
+p280
+sVMozambique
+p281
+VMozambican
+p282
+sVUganda
+p283
+VUgandan
+p284
+sVHungary
+p285
+(lp286
+VHungarian
+p287
+aVMagyar
+p288
+asVChina, Republic of
+p289
+(lp290
+VSeeTaiwan
+p291
+aV below
+p292
+asVIsle of Man
+p293
+VManx
+p294
+sVWales
+p295
+(lp296
+VWelsh
+p297
+aVBritish
+p298
+asVBrazil
+p299
+VBrazilian
+p300
+sVNetherlands
+p301
+(lp302
+VDutch
+p303
+aVNetherlandic
+p304
+asVVirgin Islands, United States
+p305
+VU.S. Virgin Island
+p306
+sVFalkland Islands
+p307
+VFalkland Island
+p308
+sVFaroe Islands
+p309
+VFaroese
+p310
+sVGuinea
+p311
+VGuinean
+p312
+sVPanama
+p313
+VPanamanian
+p314
+sVGuyana
+p315
+VGuyanese
+p316
+sVCongo, Democratic Republic of the
+p317
+VCongolese
+p318
+sVCosta Rica
+p319
+VCosta Rican
+p320
+sVLuxembourg
+p321
+(lp322
+VLuxembourg
+p323
+aVLuxembourgish
+p324
+asVAmerican Samoa
+p325
+VAmerican Samoan
+p326
+sVAndorra
+p327
+VAndorran
+p328
+sVGreat Britain
+p329
+(lp330
+VBritish
+p331
+aVUK
+p332
+asVGibraltar
+p333
+VGibraltar
+p334
+sVIreland
+p335
+VIrish
+p336
+sVPalau
+p337
+VPalauan
+p338
+sVNigeria
+p339
+VNigerian
+p340
+sVEcuador
+p341
+VEcuadorian
+p342
+sVCzech Republic
+p343
+VCzech
+p344
+sVMacedonia, Republic of
+p345
+VMacedonian
+p346
+sVBrunei
+p347
+VBruneian
+p348
+sVBelarus
+p349
+VBelarusian
+p350
+sVIran
+p351
+(lp352
+VIranian
+p353
+aVPersian
+p354
+asVAlgeria
+p355
+VAlgerian
+p356
+sVSvalbard
+p357
+g70
+sVEl Salvador
+p358
+VSalvadoran
+p359
+sVTuvalu
+p360
+VTuvaluan
+p361
+sVPitcairn Islands
+p362
+VPitcairn Island
+p363
+sVSaint Pierre and Miquelon
+p364
+VSaint-PierraisorMiquelonnais
+p365
+sVMarshall Islands
+p366
+VMarshallese
+p367
+sVChile
+p368
+VChilean
+p369
+sVPuerto Rico
+p370
+VPuerto Rican
+p371
+sVBelgium
+p372
+VBelgian
+p373
+sVKiribati
+p374
+VI-Kiribati
+p375
+sVHaiti
+p376
+VHaitian
+p377
+sVBelize
+p378
+VBelizean
+p379
+sVHong Kong
+p380
+(lp381
+VHong Kong
+p382
+aVChinese
+p383
+asVSierra Leone
+p384
+VSierra Leonean
+p385
+sVGeorgia
+p386
+VGeorgian
+p387
+sVDenmark
+p388
+VDanish
+p389
+sVPhilippines
+p390
+(lp391
+VPhilippine
+p392
+aVFilipino
+p393
+asVMoldova
+p394
+VMoldovan
+p395
+sVMorocco
+p396
+VMoroccan
+p397
+sVCroatia
+p398
+VCroatian
+p399
+sVMongolia
+p400
+VMongolian
+p401
+sVGuernsey
+p402
+VChannel Island
+p403
+sVThailand
+p404
+VThai
+p405
+sVNamibia
+p406
+VNamibian
+p407
+sVGrenada
+p408
+VGrenadian
+p409
+sVÅland Islands
+p410
+VÅland Island
+p411
+sVBonaire
+p412
+g70
+sVPortugal
+p413
+VPortuguese
+p414
+sVEstonia
+p415
+VEstonian
+p416
+sVKosovo
+p417
+(lp418
+VKosovar
+p419
+aVKosovan
+p420
+asVNorfolk Island
+p421
+VNorfolk Island
+p422
+sVEquatorial Guinea
+p423
+(lp424
+VEquatorial Guinean
+p425
+aVEquatoguinean
+p426
+asVLebanon
+p427
+VLebanese
+p428
+sVVirgin Islands, British
+p429
+VBritish Virgin Island
+p430
+sVUzbekistan
+p431
+(lp432
+VUzbekistani
+p433
+aVUzbek
+p434
+asVTunisia
+p435
+VTunisian
+p436
+sVDjibouti
+p437
+VDjiboutian
+p438
+sVGreenland
+p439
+VGreenlandic
+p440
+sVAntigua and Barbuda
+p441
+VAntiguanorBarbudan
+p442
+sVSpain
+p443
+VSpanish
+p444
+sVColombia
+p445
+VColombian
+p446
+sVBurundi
+p447
+VBurundian
+p448
+sVTaiwan
+p449
+(lp450
+VChinese
+p451
+aVTaiwanese
+p452
+asVFiji
+p453
+VFijian
+p454
+sVBarbados
+p455
+VBarbadian
+p456
+sVMadagascar
+p457
+VMalagasy
+p458
+sVItaly
+p459
+VItalian
+p460
+sVBhutan
+p461
+VBhutanese
+p462
+sVSudan
+p463
+VSudanese
+p464
+sVNepal
+p465
+(lp466
+VNepali
+p467
+aVNepalese
+p468
+asVMalta
+p469
+VMaltese
+p470
+sVMaldives
+p471
+VMaldivian
+p472
+sVNorthern Mariana Islands
+p473
+VNorthern Marianan
 p474
-sVGreece
+sVSão Tomé and Príncipe
 p475
-VGreek
+VSão Toméan
 p476
-sVParaguay
+sVAnguilla
 p477
-VParaguayan
+VAnguillan
 p478
-sVFrench Guiana
+sVVenezuela
 p479
-VFrench Guianese
+VVenezuelan
 p480
-sVComoros
+sVSaba
 p481
-VComoran
+g70
+sVIsrael
 p482
-s.
+VIsraeli
+p483
+sVRéunion
+p484
+(lp485
+VRéunionese
+p486
+aVRéunionnais
+p487
+asVIndonesia
+p488
+VIndonesian
+p489
+sVIceland
+p490
+VIcelandic
+p491
+sVZambia
+p492
+VZambian
+p493
+sVSenegal
+p494
+VSenegalese
+p495
+sVPapua New Guinea
+p496
+(lp497
+VPapua New Guinean
+p498
+aVPapuan
+p499
+asVSint Maarten
+p500
+g70
+sVTrinidad and Tobago
+p501
+VTrinidadianorTobagonian
+p502
+sVZimbabwe
+p503
+VZimbabwean
+p504
+sVGermany
+p505
+VGerman
+p506
+sVVanuatu
+p507
+(lp508
+VNi-Vanuatu
+p509
+aVVanuatuan
+p510
+asVMartinique
+p511
+(lp512
+VMartiniquais
+p513
+aVMartinican
+p514
+asVBenin
+p515
+(lp516
+VBeninese
+p517
+aVBeninois
+p518
+asVKazakhstan
+p519
+(lp520
+VKazakhstani
+p521
+aVKazakh
+p522
+asVPoland
+p523
+VPolish
+p524
+sVScotland
+p525
+(lp526
+VScots
+p527
+aVScottish
+p528
+aVBritish
+p529
+asVEritrea
+p530
+VEritrean
+p531
+sVKyrgyzstan
+p532
+(lp533
+VKyrgyzstani
+p534
+aVKyrgyz
+p535
+aVKirgiz
+p536
+aVKirghiz
+p537
+asVSaint Barthélemy
+p538
+g70
+sVNorthern Ireland
+p539
+(lp540
+VNorthern Irish
+p541
+aVBritish
+p542
+asVBritish Indian Ocean Territory
+p543
+g70
+sVIraq
+p544
+VIraqi
+p545
+sVKorea, Democratic People's Republic of
+p546
+VNorth Korean
+p547
+sVMexico
+p548
+VMexican
+p549
+sVSri Lanka
+p550
+VSri Lankan
+p551
+sVLatvia
+p552
+VLatvian
+p553
+sVSouth Sudan
+p554
+VSouth Sudanese
+p555
+sVCuraçao
+p556
+VCuraçaoan
+p557
+sVSyria
+p558
+VSyrian
+p559
+sVGuadeloupe
+p560
+VGuadeloupe
+p561
+sVCôte d'Ivoire
+p562
+VIvorian
+p563
+sVNiger
+p564
+VNigerien
+p565
+sVBurma
+p566
+VBurmese
+p567
+sVHonduras
+p568
+VHonduran
+p569
+sVMyanmar
+p570
+VBurmese
+p571
+sVBouvet Island
+p572
+VBouvet Island
+p573
+sVEgypt
+p574
+VEgyptian
+p575
+sVNicaragua
+p576
+VNicaraguan
+p577
+sVSingapore
+p578
+(lp579
+VSingapore
+p580
+aVSingaporean
+p581
+asVSerbia
+p582
+VSerbian
+p583
+sVSurinam
+p584
+VSurinamese
+p585
+sVBotswana
+p586
+(lp587
+VMotswana
+p588
+aVBotswanan
+p589
+asVUnited Kingdom
+p590
+(lp591
+VBritish
+p592
+aVUK
+p593
+asVGambia, The
+p594
+VGambian
+p595
+sVGreece
+p596
+(lp597
+VGreek
+p598
+aVHellenic
+p599
+asVParaguay
+p600
+VParaguayan
+p601
+sVFrench Guiana
+p602
+VFrench Guianese
+p603
+sVSaint Martin
+p604
+g70
+sVComoros
+p605
+(lp606
+VComoran
+p607
+aVComorian
+p608
+as.
