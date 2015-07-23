@@ -13,15 +13,23 @@ app.controller("VisaCtrl", function ($scope, $http) {
     $scope.selectedCountry = null;
     $scope.countries = {};
     $scope.visaStatus = {};
+    $scope.legend = [
+        { label: "Visa required", color: colors.REJECT },
+        { label: "Visa-free", color: colors.ACCEPT },
+        { label: "eVisa", color: colors.E_VISA },
+        { label: "Visa on arrival", color: colors.ON_ARRIVAL },
+        { label: $scope.selectedCountry, color: colors.OWN_COUNTRY },
+    ];
 
     $scope.getLegend = function () {
-        return [
-            { label: "Visa required", color: colors.REJECT },
-            { label: "Visa-free", color: colors.ACCEPT },
-            { label: "eVisa", color: colors.E_VISA },
-            { label: "Visa on arrival", color: colors.ON_ARRIVAL },
-            { label: $scope.selectedCountry, color: colors.OWN_COUNTRY },
-        ];
+        var item;
+        for (var i = 0; i < $scope.legend.length; i++) {
+            item = $scope.legend[i];
+            if (item.color === colors.OWN_COUNTRY) {
+                item.label = $scope.selectedCountry;
+            }
+        }
+        return $scope.legend;
     };
 
     $scope.getStatus = function (country) {
