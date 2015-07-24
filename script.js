@@ -60,7 +60,7 @@ app.controller("VisaCtrl", function ($scope, $http) {
 
         for (var country in data) {
             if (data[country].indexOf("Visa not required") >= 0 || data[country].indexOf("Visa free") >= 0 ||
-                data[country].indexOf("Freedom of movement") >= 0) {
+                data[country].indexOf("Freedom of movement") >= 0 || data[country] === "EU !European Union") {
                 smallList = [country, 1];
             } else if (data[country].indexOf("Visa required") >= 0) {
                 smallList = [country, 0];
@@ -98,8 +98,8 @@ app.controller("VisaCtrl", function ($scope, $http) {
 
             $scope.drawOnChart ();
         } else {
-            var d = $scope.countries[country].replace(/ /g, "_");
-            $http.get("json/" + d + ".json").success(function (response) {
+            var cName = $scope.getCountryName(country).replace(/ /g, "_");
+            $http.get("json/" + cName + ".json").success(function (response) {
                 console.log(response);
                 $scope.visaStatus[country] = response;
                 $scope.selectedCountry = country;
