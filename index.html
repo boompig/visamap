@@ -11,17 +11,17 @@
                 <div class="flow-list">
                     <div class="flow-list-item" ng-repeat="(country, demonym) in countries" ng-click="selectCountry(country)"
                         ng-class="{ selected: country === selectedCountry }">
-                        {{ country }}
+                        {{ getCountryName(country) }}
                     </div>
                 </div>
             </div>
 
             <div id="right-column" class="column">
-                <h2 class="title" ng-if="selectedCountry">Visa Requirements for Citizens of {{ selectedCountry }}</h2>
+                <h2 class="title" ng-if="selectedCountry">Visa Requirements for Citizens of {{ getCountryName(selectedCountry) }}</h2>
                 <div id="map-legend" ng-if="selectedCountry">
                     <div class="legend-item" ng-repeat="item in getLegend()">
                         <span class="legend-item-color" ng-style="{ 'background-color': item.color }"></span>
-                        <span class="legend-item-label">{{ item.label }}</span>
+                        <span class="legend-item-label">{{ getCountryName(item.label) }}</span>
                     </div>
                 </div>
                 <h2 class="title" ng-if="selectedCountry === null">Select a country to begin</h2>

@@ -149,45 +149,41 @@ def pickle_to_json (pickle_fname, json_fname=None):
         # human-readable
         json.dump(data, fp, indent=4)
 
-def get_coverage(denom):
-    try:
-        visa_info = get_visa_data(denom)
-    except urllib2.HTTPError as e:
-        print denom
-        print e
-        return None
-    except AssertionError as e:
-        print denom
-        print e
-        return None
-    except UnicodeEncodeError as e:
-        print denom
-        print e
-        return None
-    except TypeError as e:
-        print denom
-        print e
-        return None
-    except AttributeError as e:
-        print denom
-        print e
-        return None
-    coverage = set([])
-    for other_country, status in visa_info.iteritems():
-        if "Visa free" in status or "Visa not required" in status:
-            coverage.add(other_country)
-    return coverage
+def get_visa_data_from_json(demonym):
+    with open("json/%s.json" % demonym.replace(" ", "_")) as fp:
+        return json.load(fp)
 
-def count_coverage (denom1, denom2):
-    cover1 = get_coverage(denom1)
-    cover2 = get_coverage(denom2)
-    joint = cover1.union(cover2)
-    return len(joint), joint
-
-def get_list_of_countries():
+def get_coverage():
     countries = read_countries()
-    for country, demonym in countries:
-        get_visa_data_from_json(demonym)
+    best = [None, None]
+    best_count = 0
+    for country, demonym in countries.iteritems():
+        try:
+            data = get_visa_data_from_json(demonym)
+            cover1 = set( data.keys() )
+            #print "%s -> %d" % (country, len(coverage))
+        except IOError:
+            print "No data for %s" % country
+            continue
+        for c2, d2 in countries.iteritems():
+            if c2 <= country:
+                continue
+            try:
+                data = get_visa_data_from_json(demonym)
+                cover2 = set( data.keys() )
+            except IOError:
+                continue
+            cover = cover1.union(cover2)
+            print country, c2, len(cover)
+            if len(cover) > best_count:
+                best_count = len(cover)
+                best = [country, c2]
+    print best
+    print best_count
+
+def read_countries ():
+    with open("json/countries.json") as fp:
+        return json.load(fp)
 
 def save_countries (countries):
     with open("json/countries.json", "w") as fp:
@@ -201,19 +197,4 @@ def reformat_json (fname):
         json.dump(data, fp, indent=4)
 
 if __name__ == "__main__":
-    #d = read_demonyms(cache=False)
-    #get_visa_data("South Korean")
-    #l = download_visa_info()
-    #print l
-    #countries = {}
-    #for item in l:
-        #for k, v in d.iteritems():
-             ##abuse of in -> works on strings and lists
-            #if item in v:
-                #countries[k] = item
-    #print countries
-    #save_countries(countries)
-    #fname = "data/South_Korean.data"
-    #pickle_to_json(fname, fname.replace("data", "json"))
-    for fname in os.listdir("json"):
-        reformat_json("json/" + fname)
+    get_coverage()

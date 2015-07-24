@@ -21,6 +21,15 @@ app.controller("VisaCtrl", function ($scope, $http) {
         { label: $scope.selectedCountry, color: colors.OWN_COUNTRY },
     ];
 
+    $scope.getCountryName = function (country) {
+        if (country.indexOf(", ") >= 0) {
+            var parts = country.split(", ");
+            return parts[1] + " " + parts[0];
+        } else {
+            return country;
+        }
+    };
+
     $scope.getLegend = function () {
         var item;
         for (var i = 0; i < $scope.legend.length; i++) {
@@ -47,7 +56,7 @@ app.controller("VisaCtrl", function ($scope, $http) {
 
         // add title
         listData.push(["Country", "Visa Requirement"]);
-        listData.push([$scope.selectedCountry, 0.25]);
+        listData.push([$scope.getCountryName($scope.selectedCountry), 0.25]);
 
         for (var country in data) {
             if (data[country].indexOf("Visa not required") >= 0 || data[country].indexOf("Visa free") >= 0 ||
